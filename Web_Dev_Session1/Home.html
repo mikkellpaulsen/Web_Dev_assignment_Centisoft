@@ -3,28 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <title>index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bgStyleSheet.css" />
 </head>
 <body>
-    <header>
+    <div class="backgroundimage">
         <h1>Welcome To CentiSoft</h1>
         <h2>The best choice for Time Registration</h2>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="developers.html">Developers</a>
-                <ul>
-                    <li><a href="developers.html">Create Developer</a></li>
-                    <li><a href="developers.html">Show Developers</a></li>
-                </ul> 
-            </li>
-            <li><a href="customers.html">Customers</a></li>
-            <li><a href="Home.html">Projects</a></li>
-        </ul>
-    </nav>
-    <p>This will be the main <i>dashboard</i> for the web site. With fancy statistics</p>
-    <footer> 
-        <p>© Copyright myawesome company 2017</p>
-    </footer>
-</body>
+        <div>
+            <ul class="list-group" style="padding: 100px; float: right; list-style-type:none" >
+                <li><a href="Home.html" class="list-group-item list-group-item-action active">Home</a></li>
+                <li>
+                    <a href="developers.html" class="list-group-item list-group-item-action active">Developers</a>
+                    <ul class="list-group-item-secondary" style="list-style-type:lower-roman">
+                        <li> <a href="developers.html" class="list-group-item list-group-item">Show Developers</a></li>
+                        <li> <a href="developers.html" class="list-group-item list-group-item"> Create Developers</a></li>
+                    </ul>
+                </li>
+                <li><a href="customers.html" class="list-group-item list-group-item-action active">Customers</a></li>
+                <li><a href="#" class="list-group-item list-group-item-action active">Projects</a></li>
+            </ul>
+        </div>
+    </div>
+    </body>
 </html>

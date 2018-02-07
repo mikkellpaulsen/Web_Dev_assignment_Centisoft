@@ -1,0 +1,22 @@
+﻿body, html {
+    height: 100%;
+}
+
+.backgroundimage {
+    /* The image used */
+    background-image: url("billede-til-centisoft.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
