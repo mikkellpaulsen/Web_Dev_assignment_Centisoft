@@ -2,9 +2,31 @@
     height: 100%;
 }
 
-.backgroundimage {
+.backgroundimageHomePage {
     /* The image used */
     background-image: url("liverbird2.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundimageViewDevelopers {
+    /* The image used */
+    background-image: url("gerrard.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundimageViewCustomers {
+    /* The image used */
+    background-image: url("thekop.png");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -19,4 +41,12 @@ h1{
 
 h2{
     text-align: center;
+}
+
+.PEmployee{
+    color: whitesmoke;
+}
+
+.DH1{
+    color:white;
 }
